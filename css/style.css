@@ -128,14 +128,14 @@ header{
 
 
 .slider{
-	background-image: url(../images/image.jpg);
+	background-image: url(../images/image2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	min-height: 500px;
-	background-attachment: fixed;
-	/*position: relative;*/
-	/*position: absolute;*/
+	/*background-attachment: fixed;*/
+	position: relative;
+	
 }
 /*#particles-js{
 	background-size: cover;
@@ -144,6 +144,16 @@ header{
 	position: absolute;
 	position: relative;
 }*/
+.slider:before{
+	content:' '; 
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.4);
+}
+
 .slider__item{
 	outline: none;
 }
