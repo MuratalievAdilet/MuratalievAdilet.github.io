@@ -124,7 +124,7 @@ header{
 #modal{
 	display: none;
 }
-
+ 
 
 
 .slider{
@@ -694,3 +694,9 @@ header{
 	font-weight: 400;
 	font-family: 'Roboto', sans-serif;
 }  
+
+.M_A{
+	position: absolute;
+	top: 60px;
+	left: 150px;
+}
