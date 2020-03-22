@@ -337,7 +337,7 @@ header{
 
 
 .about{
-	background-image: url(../images/company.png);
+	background-image: url(../images/10365.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
@@ -345,9 +345,20 @@ header{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	padding: 25px 0px 45px;
+	position: relative;
+}
+.about:before{
+	content: ' ';
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0,0,0,0.8);
 }
 .about__inner{
 	max-width: 545px;
+	position: relative;
 }
 .about__title{
 	padding: 10px 0px 25px;
